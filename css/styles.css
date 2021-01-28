@@ -12,6 +12,12 @@ body {
         height: auto;
 }
 
+
+/*Nav*/
+nav {
+    background-color: darkblue;
+}
+
 nav ul {
     display:flex;
     list-style-type: none;
@@ -19,9 +25,32 @@ nav ul {
 }
 
 nav ul a {
-    text-decoration: none;
-    padding-right: 10px
+    padding-right: 10px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  float: left;
+  color: darkgray;
+  text-align: center;
+  text-decoration: none;
 }
+
+nav ul a:visited {
+    color:#ODODOD;
+}
+nav ul a:visited {
+    color:#ODODOD;
+}
+nav ul a:visited {
+    color:#ODODOD;
+}
+
+nav ul a:hover {
+    background-color:#C1E4FF
+}
+
+
+/*Glacier Image*/
 
 .glacier-img {
     position: relative;
@@ -39,8 +68,10 @@ nav ul a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: #ODODOD;
 }
 
 .other-container {
-    background-color: mediumpurple;
+    background-color: #E7DDF2;
 }
+
