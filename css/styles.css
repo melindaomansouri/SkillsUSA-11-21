@@ -73,5 +73,12 @@ nav ul a:hover {
 
 .other-container {
     background-color: #E7DDF2;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    height: 100px
+    margin 5px;
 }
 
