@@ -1,5 +1,10 @@
 /* Main Styles */
 
+#logo {
+        width: 50px;
+        height: auto;
+}
+
 nav ul {
     display:flex;
     list-style-type: none;
@@ -9,4 +14,22 @@ nav ul {
 nav ul a {
     text-decoration: none;
     padding-right: 10px
+}
+
+.glacier-img {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+}
+
+.glacier-img img {
+    filter:blur(2px)
+}
+
+.glacier-text  {
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
