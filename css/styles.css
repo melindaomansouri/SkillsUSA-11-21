@@ -1,5 +1,12 @@
 /* Main Styles */
 
+
+
+body {
+    background-color: lightgray;
+    font-family: 'Roboto', sans-serif;
+}
+
 #logo {
         width: 50px;
         height: auto;
@@ -32,4 +39,8 @@ nav ul a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.other-container {
+    background-color: mediumpurple;
 }
