@@ -71,10 +71,13 @@ nav ul a:hover {
     color: #ODODOD;
 }
 
+
+/* Other Sites*/
 .other-container {
     background-color: #E7DDF2;
     display: flex;
     flex-wrap: wrap;
+    margin: 20px;
 }
 
 .item {
@@ -82,3 +85,12 @@ nav ul a:hover {
     margin 5px;
 }
 
+.item:hover {
+    opacity: 0.5;
+}
+
+
+/*Footer*/
+footer {
+    font-size: 10px;
+}
