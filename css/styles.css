@@ -16,23 +16,26 @@ body {
 /*Nav*/
 nav {
     background-color: darkblue;
+    position: fixed;
 }
 
 nav ul {
     display:flex;
     list-style-type: none;
     margin-right: 10px;
+    align-items:center;
+    
 }
 
 nav ul a {
     padding-right: 10px;
-    padding-top: 40px;
+    padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
-  float: left;
-  color: darkgray;
-  text-align: center;
-  text-decoration: none;
+    float: left;
+    color: darkgray;
+    text-align: center;
+    text-decoration: none;
 }
 
 nav ul a:visited {
@@ -48,7 +51,9 @@ nav ul a:visited {
 nav ul a:hover {
     background-color:#C1E4FF
 }
-
+header{
+    padding-bottom:80px;
+}
 
 /*Glacier Image*/
 
